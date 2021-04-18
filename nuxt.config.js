@@ -9,7 +9,14 @@ export default {
             { charset: "utf-8" },
             { name: "viewport", content: "width=device-width, initial-scale=1" },
             { hid: "generator", name: "generator", content: "Nuxt" },
-            { hid: "theme-color", name: "theme-color", content: "#DE3C78" }
+            { hid: "theme-color", name: "theme-color", content: "#DE3C78" },
+            { hid: "description", name: "description", content: "Professionelle Web- und Anwendungsentwicklung" },
+            { hid: "og:title", name: "og:title", content: "HamsterLabs.de" },
+            { hid: "og:type", name: "og:type", content: "website" },
+            { hid: "og:description", name: "og:description", content: "Professionelle Web- und Anwendungsentwicklung" },
+            { hid: "og:image", name: "og:image", content: "/logo-360.png" },
+            { hid: "og:site_name", name: "og:site_name", content: "HamsterLabs.de" }
+
         ],
         link: [
             { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
