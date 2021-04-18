@@ -74,5 +74,11 @@ export default {
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {
+        html: {
+            minify: {
+                collapseWhitespace: true,  // as @dario30186 mentioned
+                removeComments: true, // 👈 add this line
+            }
+        }
     }
 }

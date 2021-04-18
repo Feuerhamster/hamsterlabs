@@ -2,7 +2,7 @@
     
     <article :class="{ inline }" data-aos="fade-up" :data-aos-delay="(index * 100)">
         
-        <h1><a :href="article.path">{{ article.title }}</a></h1>
+        <h1><nuxt-link :to="article.path">{{ article.title }}</nuxt-link></h1>
         
         <Tags :tags="article.tags" animation="fade-left" />
         

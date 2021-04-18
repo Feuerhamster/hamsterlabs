@@ -1,7 +1,10 @@
 <template>
 
     <span>
-        <a class="link-button" :href="href" :target="target">
+        <nuxt-link v-if="href.startsWith('/')" class="link-button" :to="href" :target="target">
+            <slot />
+        </nuxt-link>
+        <a v-else class="link-button" :href="href" :target="target">
             <slot />
         </a>
     </span>

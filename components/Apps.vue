@@ -4,9 +4,9 @@
         
         <div v-for="(app, i) of apps" data-aos="fade-up" :data-aos-delay="(i * 100) + animationDelay">
             
-            <a :href="app.path">
+            <nuxt-link :to="app.path">
                 <img :src="require(`~/assets/apps/${app.slug}.png`)" alt="icon" />
-            </a>
+            </nuxt-link>
             
             <span>{{ app.title }}</span>
             
