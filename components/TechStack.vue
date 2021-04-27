@@ -50,4 +50,11 @@ export default {
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 720px) {
+    .tech-stack > img {
+        max-height: 80px;
+        max-width: 250px;
+    }
+}
+
 </style>

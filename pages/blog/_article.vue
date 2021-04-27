@@ -16,6 +16,8 @@
     
             <h1>{{ article.title }}</h1>
     
+            <Author class="mobile-inline" :name="article.author" :image="article.author_image" :meta="`am ${articleDate}`" />
+            
             <nuxt-content :document="article"></nuxt-content>
             
         </article>
@@ -92,8 +94,20 @@ export default {
     max-width: 200px;
 }
 
-@media only screen and (max-width: 750px) {
+.article-wrapper .mobile-inline {
+    display: none;
+}
 
+@media only screen and (max-width: 720px) {
+    
+    .meta-box {
+        display: none;
+    }
+    
+    .article-wrapper .mobile-inline {
+        display: flex;
+    }
+    
 }
 
 </style>

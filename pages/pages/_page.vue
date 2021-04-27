@@ -45,4 +45,10 @@ export default {
     flex-direction: column;
     max-width: 720px;
 }
+
+@media only screen and (max-width: 720px) {
+    .page-wrapper div.meta-box {
+        display: none;
+    }
+}
 </style>

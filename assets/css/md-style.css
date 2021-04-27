@@ -156,3 +156,12 @@ Lists
 .nuxt-content li {
     margin-bottom: 10px;
 }
+
+/*
+* Mobile sizes
+*/
+@media only screen and (max-width: 720px) {
+    .nuxt-content h1 {
+        font-size: 38px;
+    }
+}

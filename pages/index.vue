@@ -152,4 +152,10 @@ export default {
     }
 }
 
+@media only screen and (max-width: 720px) {
+    .homepage > .segment h1 {
+        font-size: 42px;
+    }
+}
+
 </style>

@@ -137,6 +137,11 @@ export default {
     
     .project-box img {
         margin: 0 0 20px 0;
+        max-height: 120px;
+    }
+    
+    .project-box h1 {
+        font-size: 42px;
     }
     
     .project-box p {
