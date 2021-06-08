@@ -22,7 +22,7 @@ Gerade da Hilfsangebote für Transgender schwierig zu finden sind, ist das Proje
 ## Zusammenarbeit
 Hinter Trans*DB steht ein komplettes Team an Leuten, die sich um das Projekt kümmern.
 Anfangs habe ich jedoch noch alleine den Code geschrieben.
-Recht früh in der Entwicklung kam dann [Laila](https://github.com/ElectronicBlueberryhttps://github.com/ElectronicBlueberry) dazu und wir haben zusammen am Projekt gearbeitet.
+Recht früh in der Entwicklung kam dann [Laila](https://github.com/ElectronicBlueberry) dazu und wir haben zusammen am Projekt gearbeitet.
 Mittlerweile haben wir beide echt viel Arbeit da reingesteckt, haben uns gut ergänzt und sind mit dem Ergebnis sehr zufrieden.
 
 ## TechStack
