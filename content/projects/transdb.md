@@ -4,7 +4,7 @@ description: Trans*DB ist eine Webseite um Anlaufstellen, Ärzte und mehr für T
 startpage: true
 web: https://transdb.de
 github: https://github.com/TransDB-de/
-sort: 3
+sort: 10
 ---
 **Trans\*DB ist ein gemeinschaftliches Projekt, welches nicht vom mir gestartet wurde.**
 

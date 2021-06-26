@@ -3,7 +3,7 @@ title: Shoppy
 description: Shoppy ist eine kostenlose und moderne Cross-Platform Echtzeitanwendung um Einkaufslisten zu planen.
 startpage: true
 web: https://shoppy.hamsterlabs.de
-sort: 1
+sort: 20
 ---
 ## Die Idee
 

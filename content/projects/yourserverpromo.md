@@ -3,7 +3,7 @@ title: YourServerPromo.de
 description: YourServerPromo.de war eine Webseite mit einer Minecraft Serverliste und einem Forum welches für den YouTuber YourServerPromo entwickelt wurde.
 startpage: false
 deprecated: true
-sort: 6
+sort: 60
 ---
 
 ## Projektbeschreibung

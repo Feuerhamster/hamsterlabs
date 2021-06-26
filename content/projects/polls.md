@@ -3,7 +3,7 @@ title: Polls
 description: HamsterLabs Polls ist eine Webseite um schnell und einfach Umfragen zu erstellen.
 startpage: false
 deprecated: true
-sort: 5
+sort: 50
 ---
 
 ## Projektidee

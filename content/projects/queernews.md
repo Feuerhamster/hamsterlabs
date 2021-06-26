@@ -2,8 +2,8 @@
 title: QueerNews
 description: QueerNews ist eine Google-News ähnliche Seite, die Inhalte zu LGBT-Themen aus verschiedenen Quellen bezieht.
 startpage: true
-web: https://queernews.bluemedia.dev
-sort: 2
+web: https://queernews.ml
+sort: 40
 ---
 
 ## Einführung

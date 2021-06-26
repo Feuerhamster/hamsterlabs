@@ -7,8 +7,7 @@
             <h2>
                 <BookIcon></BookIcon>
                 <a :href="`https://github.com/${repo.owner}/${repo.repo}`" target="_blank">
-                    <span v-if="repo.owner !== githubUser">{{ repo.owner }}/</span>
-                    {{ repo.repo }}
+                    {{getRepoTitle(repo.repo, repo.owner)}}
                 </a>
             </h2>
             
@@ -47,10 +46,15 @@ export default {
             repos: []
         }
     },
+    methods: {
+        getRepoTitle(repo, owner) {
+            return owner !== this.githubUser ? owner + "/" + repo : repo;
+        }
+    },
     async created() {
     
         try {
-            let res = await this.$axios.get("https://gh-pinned-repos.now.sh/?username=" + this.githubUser);
+            let res = await this.$axios.get("https://gh-pinned-repos.egoist.sh/?username=" + this.githubUser);
             this.repos = res.data;
         } catch (e) {
             return;
@@ -77,6 +81,7 @@ export default {
     border: 1px solid #cfcfcf;
     border-radius: var(--border-radius);
     max-width: 500px;
+    width: 100%;
 }
 
 .github-repos > .repo h2 {
@@ -150,7 +155,7 @@ export default {
 }
 
 .github-repos > .repo span.code.vue {
-    background-color: #2c3e50;
+    background-color: #41b883;
 }
 
 .github-repos > .repo h2 .feather {

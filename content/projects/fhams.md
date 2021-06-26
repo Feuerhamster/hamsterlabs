@@ -3,7 +3,7 @@ title: FHAMS
 description: FHAMS (Feuerhamster's Account Management System) ist eine PHP Library zum verwalten von Benutzeraccounts und Sessions.
 startpage: false
 deprecated: true
-sort: 7
+sort: 70
 ---
 
 ## Beschreibung

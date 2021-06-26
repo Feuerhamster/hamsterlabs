@@ -80,7 +80,7 @@ export default {
         
         let projects = await $content("projects")
             .sortBy("sort")
-            .only(["title", "slug", "path"])
+            .only(["title", "slug", "path", "roundImage"])
             .where({ startpage: true })
             .fetch();
         

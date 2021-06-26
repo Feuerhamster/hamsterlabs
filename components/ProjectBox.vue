@@ -2,7 +2,7 @@
     
     <div :class="{'project-box': true, compact}">
         
-        <img :src="require(`~/assets/apps/${project.slug}.png`)" data-aos="fade-right" alt="icon" />
+        <img :src="require(`~/assets/apps/${project.slug}.png`)" data-aos="fade-right" alt="icon" :class="{round: project.roundImage}" />
         
         <div>
             <h1 data-aos="fade-down" :data-aos-delay="100">{{ project.title }}</h1>
@@ -121,6 +121,10 @@ export default {
     border-radius: var(--border-radius);
     margin-right: 50px;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-box img.round {
+    border-radius: 50%;
 }
 
 .project-box:nth-child(2n) {

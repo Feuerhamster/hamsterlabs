@@ -5,7 +5,7 @@
         <div v-for="(app, i) of apps" data-aos="fade-up" :data-aos-delay="(i * 100) + animationDelay">
             
             <nuxt-link :to="app.path">
-                <img :src="require(`~/assets/apps/${app.slug}.png`)" alt="icon" />
+                <img :src="require(`~/assets/apps/${app.slug}.png`)" alt="icon" :class="{round: app.roundImage}" />
             </nuxt-link>
             
             <span>{{ app.title }}</span>
@@ -47,6 +47,10 @@ export default {
     transition: 0.1s transform;
     cursor: pointer;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.apps > div > a > img.round {
+    border-radius: 50%;
 }
 
 .apps > div > a > img:hover {
